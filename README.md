@@ -25,9 +25,12 @@ In this project, I explain how to deploy a highly available website using AWS se
    - Verified round-robin traffic distribution.
 ------------------------------------------------------
 # Screenshots:
-- `s3-website-screenshot.png`: Access to the S3 website.
-- `alb-screenshot.png`: Access to ALB showing traffic distribution.
-?????????????
+- s3-website-access.png
+- s3-curl-response-200.png
+- asg-min-max-desired.png
+- asg-instance-screenshot.png
+- alb-traffic-distribution.png
+- alb-dns-screenshot.png
 ------------------------------------------------------
 #Configuration Files:
 - nginx-setup.sh: Script to install and configure NGINX on EC2 instances.
